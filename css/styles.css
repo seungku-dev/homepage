@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color:#40515E;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#E4F9F5;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: thick;
+    border-color: #e7e7e7;
+    width: 3rem;
+    margin: 4rem auto;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile {
+    line-height: 2;
+}
+
+.profile p {
+    margin: 2rem auto;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 350px;
+}
+
+.middle-container {
+}
+
+.profile_img {
+    width: 15%;
+}
+
+.skill-row {
+    margin: 6rem auto;
+}
+
+.skill-row img {
+    width: 7%;
+    position: absolute;
+    left: 38%;
+}
+
+.skill-description {
+    width: 40%;
+    position: relative;
+    left: 55%;
+    text-align: left;
+}
+
+.bottom-container {
+    position: relative;
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    padding: 3rem;
+    margin: 4rem auto 0 auto;
+}
+
+.bottom-container p {
+    margin: 3rem auto 0 auto;
+    font-size: smaller;
+}
+
+.footer-link {
+    margin: auto 1rem;
+}
+
+.BUTTON_LBC {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #11999E;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.BUTTON_LBC:hover {
+    background: #15B5A5;
+    border: solid #337FED 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
